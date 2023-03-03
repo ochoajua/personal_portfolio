@@ -36,6 +36,10 @@ main {
     font-size: 40px;
 }
 
+#bio {
+    width: 500px;
+}
+
 #intro {
     display: flex;
     justify-content: space-between;
@@ -54,7 +58,22 @@ main {
     max-width: 300px;
 }
 
+details > summary {
+    padding: 5px;
+    cursor: pointer;
+    list-style-type: '+ ';
+    font-size: 20px;
+    color:dodgerblue
+}
 
+details[open] > summary {
+    list-style-type: '- ';
+}
+
+.proj-info {
+    background-color: linen;
+    padding: 20px;
+}
 
 @media only screen and (max-width: 600px) {
     #intro {
