@@ -6,8 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juan's Personal Porfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <h1>Personal Portfolio</h1>
+    <header>
+        <nav>
+            <ul>
+                <li>About</li>
+                <li>Projects</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Juan A. Ochoa</h1>
+        <section>
+            <h2>About Me</h2>
+            <div id="intro">
+                <div id="bio">
+                    <p>
+                        I am a web developer based in Victoria, BC, Canada. This is my porfolio
+                        website. My goal is to apply my skills as a full-stack developer to work for
+                        a company that aims to have a positive inpact on society and the environment. 
+                        I am learning to program on Codecademy.com 
+                    </p>
+                    <p>
+                        Also, my hobbies are: running, cycling, coffee shop-hopping, and reading.
+                    </p>
+                </div>
+                <img src="Resources/profile.JPG" alt="profile-photo"></i>
+            </div>
+            <div id="logos">
+                <h2>Skills</h2>
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-git"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+        </section>
+        <section>
+            <h2>Projects I've Done</h2>
+            <article class="project">
+                <h3 class="proj-name">- Fotomatic</h3>
+                <div class="proj-info">
+                    <p class="proj-description">
+                        This is a website for a photography business. It demonstrates the use of resizing 
+                        elements in html.
+                    </p>
+                    <img src="Resources/fotomatic-thumb.png" class="proj-thumbnail">
+                </div>
+            </article>
+            <article class="project">
+                <h3 class="proj-name">- Tea Cozy</h3>
+                <div class="proj-info">
+                    <p class="proj-description">
+                        This is a website for a tea shop. It uses flex to align elements.
+                    </p>
+                    <img src="Resources/tea-thumb.jpeg" class="proj-thumbnail">
+                </div>
+            </article>
+        </section>
+        
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
